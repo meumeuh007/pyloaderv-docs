@@ -29,12 +29,21 @@ In this documentation, **"your GTA V folder"** always means this folder.
 
 ## Step 2: install ScriptHookV
 
-Open the ScriptHookV zip and copy these two files from its `bin` folder into your GTA V folder:
+Open the ScriptHookV zip and copy **everything inside its `bin` folder** into your GTA V folder:
 
-- `ScriptHookV.dll`
-- `dinput8.dll`
+| File | What it is |
+|---|---|
+| `ScriptHookV.dll` | ScriptHookV itself. |
+| `dinput8.dll`, `xinput1_4.dll` | The "ASI loaders" that load `.asi` mods like PyloaderV. |
+| `args.txt` | Turns off the BattlEye anti-cheat, which blocks mods in story mode. |
+| `NativeTrainer.asi` | A simple trainer. Optional: skip it if you do not want it. |
 
 If ScriptHookV is already installed for other mods, skip this step.
+
+```{tip}
+BattlEye still pops up? The ScriptHookV zip has a `HOW_TO_INSTALL` file with other ways to
+turn it off, for example the `-nobattleye` launch argument in the Rockstar Games Launcher.
+```
 
 ## Step 3: install PyloaderV
 
@@ -54,6 +63,8 @@ Grand Theft Auto V/
 ├── GTA5.exe              (or GTA5_Enhanced.exe)
 ├── ScriptHookV.dll
 ├── dinput8.dll
+├── xinput1_4.dll
+├── args.txt
 ├── PyloaderV.asi
 ├── PyloaderV.ini
 ├── pyscript/

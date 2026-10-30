@@ -6,7 +6,9 @@
 
 No "PyloaderV loaded" notification? Check, in your GTA V folder:
 
-1. **ScriptHookV is installed**: `ScriptHookV.dll` and `dinput8.dll` are there.
+1. **ScriptHookV is installed**: `ScriptHookV.dll`, `dinput8.dll`, `xinput1_4.dll` and
+   `args.txt` (everything from the `bin` folder of the ScriptHookV zip) are there.
+   Without `args.txt`, BattlEye can block mods.
 2. **ScriptHookV is up to date.** After each GTA V update, ScriptHookV stops working until
    it is updated too. Get the latest one from [dev-c.com](http://www.dev-c.com/gtav/scripthookv/).
 3. **The PyloaderV files are in the right place**: `PyloaderV.asi` sits **next to** `GTA5.exe`
