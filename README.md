@@ -1,7 +1,7 @@
 # PyloaderV documentation
 
-Source of the documentation of [PyloaderV](https://www.gta5-mods.com/tools/pyloader-python-scripts-for-gta-v-enhanced),
-the mod that runs Python 3.12 scripts in GTA V (story mode), and of its developer kit
+Source of the documentation of [PyloaderV](https://www.gta5-mods.com/tools/pyloader-python-scripts-for-gta-v-enhanced)
+(also on [GTVault](https://gtvault.org/mods/pyloader-python-scripts-for-gta-v)), the mod that runs Python 3.12 scripts in GTA V (story mode), and of its developer kit
 [`pyloaderv`](https://pypi.org/project/pyloaderv/) on PyPI.
 
 Read it online: https://pyloaderv.readthedocs.io

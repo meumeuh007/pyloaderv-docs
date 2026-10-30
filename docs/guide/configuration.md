@@ -24,7 +24,7 @@ ScriptTimeoutMs=5000
 `ReloadKey` (default `F9`)
 : The key that reloads every script. Accepted values: `F1` to `F12`, `A` to `Z`, `0` to `9`,
   `Enter`, `Space`, `Tab`, `Escape`, `Insert`, `Delete`, `Home`, `End`, `PageUp`,
-  `PageDown`, the arrows, and `Numpad0` to `Numpad9`. Scripts never receive this key.
+  `PageDown`, the arrows, and `Numpad0` to `Numpad9`. Scripts never see this key pressed.
 
 `AutoReload` (default `false`)
 : Set to `true` and PyloaderV reloads the scripts **by itself** as soon as a `.py` or `.pyv`

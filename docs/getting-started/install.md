@@ -8,7 +8,7 @@ This page installs PyloaderV in your game. It takes about five minutes, and you
 - **GTA V** on PC, the Legacy or the Enhanced edition (Steam, Epic or Rockstar launcher).
 - **ScriptHookV**, the tool that lets mods run inside the game.
   Download it from [dev-c.com/gtav/scripthookv](http://www.dev-c.com/gtav/scripthookv/).
-- **PyloaderV**, from its [gta5-mods page](https://www.gta5-mods.com/tools/pyloader-python-scripts-for-gta-v-enhanced).
+- **PyloaderV**, from [gta5-mods](https://www.gta5-mods.com/tools/pyloader-python-scripts-for-gta-v-enhanced) or [GTVault](https://gtvault.org/mods/pyloader-python-scripts-for-gta-v) (same files).
 
 ## Step 1: find your game folder
 

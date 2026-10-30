@@ -87,5 +87,5 @@ Open it in your browser to build scripts with blocks.
 
 ### How do I report a bug or ask for a feature?
 
-Comment on the [gta5-mods page](https://www.gta5-mods.com/tools/pyloader-python-scripts-for-gta-v-enhanced),
+Comment on the [gta5-mods page](https://www.gta5-mods.com/tools/pyloader-python-scripts-for-gta-v-enhanced) or the [GTVault page](https://gtvault.org/mods/pyloader-python-scripts-for-gta-v),
 with your `PyloaderV.log` and, if you can, a small script that shows the problem.

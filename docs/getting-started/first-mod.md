@@ -164,7 +164,7 @@ Let's read it piece by piece.
 ## 6. Share it
 
 You already have it: `MyFirstMod.pyv` is your whole mod in one file. Send it to your friends
-or upload it to gta5-mods. Players copy it into their `pyscript` folder, done.
+or upload it to gta5-mods or GTVault. Players copy it into their `pyscript` folder, done.
 
 Want to hide your source code? Pack with `--bytecode` (see [](../guide/multi-file.md#hide-your-source-code)).
 

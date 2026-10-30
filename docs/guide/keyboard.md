@@ -63,7 +63,8 @@ def is_key_held(vk):
 
 ### The reload key
 
-PyloaderV keeps **F9** (or your `ReloadKey`) for itself: scripts never receive it.
+PyloaderV keeps **F9** (or your `ReloadKey`) for itself: scripts never see it pressed
+(`down=True`). They may still get its release (`down=False`), which the usual `if not down: return` ignores.
 Avoid keys other popular mods use too, like F4 (often a trainer) or F10/F11.
 
 ## Key codes
