@@ -1,0 +1,60 @@
+/* Airy reading: a bit more line height and space between sections. */
+article {
+    line-height: 1.7;
+}
+article h2 {
+    margin-top: 2.4rem;
+}
+article h3 {
+    margin-top: 1.8rem;
+}
+
+/* Landing page cards. */
+.sd-card {
+    border-radius: 10px;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.sd-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.sd-card-title {
+    font-weight: 650;
+}
+
+.hero-tagline {
+    font-size: 1.25rem;
+    color: var(--color-foreground-secondary);
+    margin-bottom: 1.6rem;
+}
+
+/* Natives reference: compact entries, the free-text notes kept verbatim. */
+.native-meta {
+    font-size: 0.82rem;
+    color: var(--color-foreground-muted);
+    margin-top: -0.4rem;
+}
+pre.native-notes {
+    font-family: var(--font-stack);
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+    background: var(--color-background-secondary);
+    border-left: 3px solid var(--color-brand-primary);
+    border-radius: 4px;
+    padding: 0.7rem 0.9rem;
+    line-height: 1.55;
+}
+/* Native names are long: smaller headings, wrapped anywhere. */
+article:has(.native-meta) h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-family: var(--font-stack--monospace);
+    word-break: break-all;
+}
+
+/* Tables: breathe a little. */
+table.docutils td,
+table.docutils th {
+    padding: 0.45rem 0.75rem;
+}
